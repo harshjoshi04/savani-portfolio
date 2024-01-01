@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+    width: 0;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #2E2E35;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #DF9F3B;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+    scroll-behavior: smooth;
+    
+  }
+
+  body{
+    overflow-x:hidden ;
+  }
